@@ -1,3 +1,8 @@
+article
+{
+
+
+}
 body 
 {
 	font-size:16px;
@@ -32,6 +37,21 @@ header nav ul, li
 	margin-right: auto;
 	margin-top:15px;
 	padding:0.5em;
+}
+header nav ul, li, a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+header nav ul, li, a:hove
+{
+	color:#06F;
+	text-decoration:none;
+}
+.menusup 
+{
+
+	
 }
 section
 {
