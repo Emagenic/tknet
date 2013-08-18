@@ -18,7 +18,7 @@ header
 	height:99px;
 	background:url(../imagenes/header.jpg);	
 }
-header figure, #logo
+header #logo img
 {
 	float:left;
 	margin-left:2em;
@@ -43,15 +43,22 @@ header nav ul, li, a
 	color:#FFF;
 	text-decoration:none;
 }
-header nav ul, li, a:hove
+header nav ul, li, a:hover
 {
-	color:#06F;
+	color:orange;
 	text-decoration:none;
 }
-.menusup 
+header #menu_social 
 {
-
-	
+	width: 68px;
+	float: right;
+	display:inline;
+	margin-right: 2em;
+}
+header #menu_social img
+{
+	margin-bottom: 0;
+	padding: 0;	
 }
 section
 {
